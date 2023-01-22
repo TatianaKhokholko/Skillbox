@@ -11,7 +11,7 @@ public class Main {
         int value = new Scanner(System.in).nextInt();
         int result = 1;
 
-        if (value > 0 && value <= 12) {
+        if (value >= 0 && value <= 12) {
             for (int i = 1; i <= value; i++) {
                 result *= i;
             }
